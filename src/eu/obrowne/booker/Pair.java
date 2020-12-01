@@ -10,4 +10,8 @@ public class Pair<A, B> {
 
     public A first;
     public B second;
+
+    public String toString() {
+        return "Pair<" + first + ", " + second + ">";
+    }
 }
